@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function calc(){
+		let mytext1 = document.getElementById("text1");
+		let resultdiv = document.getElementById("div1");
+		resultdiv.innerHTML = "값 : "+(parseInt(mytext1.value)*12900*0.9);
+	}
+</script>
+</head>
+<body>
+	<div id = "contianer">
+		수량:
+		<form>
+			<input type="text" id  = "text1" onkeyup ="calc()"/>
+		</form>
+		<div id = "div1"></div>
+	</div>
+</body>
+</html>

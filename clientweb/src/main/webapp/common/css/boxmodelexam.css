@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+#title{
+	color : green;
+}
+
+#boxmodel{
+	background-image : url("/clientweb/image/background.gif");
+	background-color: #abd0bc;
+	background-repeat : no-repeat;
+	margin-left : 20px;
+	padding : 15px;
+	padding-left : 80px;
+}
